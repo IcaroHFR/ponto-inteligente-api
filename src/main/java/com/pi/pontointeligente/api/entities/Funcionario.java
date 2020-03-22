@@ -1,4 +1,4 @@
-package com.pi.pontointeligete.api.entities;
+package com.pi.pontointeligente.api.entities;
 
 import java.io.Serializable;
 import java.math.BigDecimal;
@@ -22,7 +22,7 @@ import javax.persistence.PreUpdate;
 import javax.persistence.Table;
 import javax.persistence.Transient;
 
-import com.pi.pontointeligete.api.enums.PerfilEnum;
+import com.pi.pontointeligente.api.enums.PerfilEnum;
 
 
 @Entity

@@ -11,7 +11,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.repository.query.Param;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.pi.pontointeligete.api.entities.Lancamento;
+import com.pi.pontointeligente.api.entities.Lancamento;
 
 
 @Transactional(readOnly = true)

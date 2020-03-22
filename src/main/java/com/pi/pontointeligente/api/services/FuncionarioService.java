@@ -2,7 +2,7 @@ package com.pi.pontointeligente.api.services;
 
 import java.util.Optional;
 
-import com.pi.pontointeligete.api.entities.Funcionario;
+import com.pi.pontointeligente.api.entities.Funcionario;
 
 public interface FuncionarioService {
 	

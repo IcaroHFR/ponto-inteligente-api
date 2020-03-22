@@ -1,4 +1,4 @@
-package com.pi.pontointeligete.api.enums;
+package com.pi.pontointeligente.api.enums;
 
 public enum PerfilEnum {
 	ROLE_ADMIN,

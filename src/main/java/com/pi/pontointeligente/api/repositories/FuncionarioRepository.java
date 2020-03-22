@@ -1,9 +1,10 @@
 package com.pi.pontointeligente.api.repositories;
 
+
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.pi.pontointeligete.api.entities.Funcionario;
+import com.pi.pontointeligente.api.entities.Funcionario;
 
 @Transactional(readOnly = true)
 public interface FuncionarioRepository extends JpaRepository<Funcionario, Long> {

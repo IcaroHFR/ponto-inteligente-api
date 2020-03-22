@@ -10,8 +10,8 @@ import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.junit4.SpringRunner;
 
+import com.pi.pontointeligente.api.entities.Empresa;
 import com.pi.pontointeligente.api.repositories.EmpresaRepository;
-import com.pi.pontointeligete.api.entities.Empresa;
 
 @RunWith(SpringRunner.class)
 @DataJpaTest

@@ -5,11 +5,13 @@ import java.util.Optional;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
+import com.pi.pontointeligente.api.entities.Empresa;
 import com.pi.pontointeligente.api.repositories.EmpresaRepository;
 import com.pi.pontointeligente.api.services.EmpresaService;
-import com.pi.pontointeligete.api.entities.Empresa;
 
+@Service
 public class EmpresaServiceImpl implements EmpresaService{
 
 	private static final Logger log = LoggerFactory.getLogger(EmpresaServiceImpl.class);

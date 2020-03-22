@@ -7,9 +7,9 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import com.pi.pontointeligente.api.entities.Funcionario;
 import com.pi.pontointeligente.api.repositories.FuncionarioRepository;
 import com.pi.pontointeligente.api.services.FuncionarioService;
-import com.pi.pontointeligete.api.entities.Funcionario;
 
 @Service
 public class FuncionarioServiceImpl implements FuncionarioService {

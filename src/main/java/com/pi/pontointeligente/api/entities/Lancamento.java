@@ -1,4 +1,4 @@
-package com.pi.pontointeligete.api.entities;
+package com.pi.pontointeligente.api.entities;
 
 import java.io.Serializable;
 import java.util.Date;
@@ -18,7 +18,7 @@ import javax.persistence.Table;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 
-import com.pi.pontointeligete.api.enums.TipoEnum;
+import com.pi.pontointeligente.api.enums.TipoEnum;
 
 
 @Entity
